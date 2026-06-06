@@ -1,0 +1,9 @@
+.DS_Store*
+__pycache__
+venv*
+*.txt
+!requirements.txt
+*.pkl
+*.pdf
+*.pyc
+*.json

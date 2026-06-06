@@ -1,0 +1,5 @@
+numpy<2
+spacy
+ollama
+matplotlib
+scikit-learn
