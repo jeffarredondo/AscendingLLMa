@@ -3,3 +3,4 @@ spacy
 ollama
 matplotlib
 scikit-learn
+imageio
