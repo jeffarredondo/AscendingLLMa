@@ -153,7 +153,7 @@ Description: {description}
 Respond with ONLY the name, nothing else. 2-3 words maximum:"""
 
     response = ollama.chat(
-        model='tinyllama',
+        model='mistral',
         messages=[{'role': 'user', 'content': prompt}]
     )
     name = response['message']['content'].strip().lower()

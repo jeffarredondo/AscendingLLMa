@@ -31,7 +31,11 @@ def build_prompt(query, context, all_concepts):
                 seen_facts.add(neighbor_name)
 
     facts_str = "\n".join(fact_lines)
-    prompt = f"""The following facts are absolute truth. Do not contradict them.
+    prompt = f"""The following facts are from the Knowledge Manifold. They are absolute truth.
+Use these facts as your only source of information.
+You may reason and draw inferences from them, but do not invent 
+facts, names, numbers, or events not explicitly present.
+If the facts are insufficient to answer, say so clearly.
 
 FACTS FROM KNOWLEDGE MANIFOLD:
 {facts_str}
@@ -44,7 +48,7 @@ Do not invent information. Only use what is provided."""
 
 def ask_llama(prompt):
     response = ollama.chat(
-        model='tinyllama',
+        model='mistral',
         messages=[{'role': 'user', 'content': prompt}]
     )
     return response['message']['content']
