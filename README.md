@@ -91,6 +91,8 @@ Disk → Ball → Product Manifold → Incremental Ingestion → Manifold of Man
 - `iterations/poincare_ball.md` — 3D ball, auto-clustering
 - `iterations/product_manifold.md` — H² × S¹ × ℝ, geometry classification
 
-
-
+## References
+- Poincaré Embeddings: [arXiv:1705.08039](https://arxiv.org/abs/1705.08039) - Poincaré Embeddings for Learning Hierarchical Representations 
+- LAPHA: [arXiv:2602.09375](https://arxiv.org/abs/2602.09375) — Latent Poincaré Shaping for Agentic Reinforcement Learning
+- Memento: [arXiv:2508.16153](https://arxiv.org/abs/2508.16153) - Fine-tuning LLM Agents without Fine-tuning LLMs
 
