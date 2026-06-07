@@ -34,7 +34,7 @@
 ## New Repo
 - [ ] Create repo for Knowledge Manifold - C++ implementation
 
-## Future (C++ / CondAscendingLLMa)
+## Future (C++)
 - [ ] Model as input parameter not hardcoded
 - [ ] .km manifest file format
 - [ ] Native binary, no Python
