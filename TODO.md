@@ -2,9 +2,9 @@
 
 ## Immediate Fixes
 - [ ] Verbose flag — dev mode vs production output
-- [ ] Response length limit — 3 sentences max in prompt
 - [ ] Deterministic ingestion — seed random sampling so same corpus = same manifold
-- [ ] Cache summaries — don't re-summarize concepts across runs
+- [ ] Entity disambiguation pass — after ingestion, verify entities aren't conflated
+- [ ] Cache summaries — don't re-summarize concepts across runs. Add information to manifold
 - [ ] Two model pipeline explicit — TinyLlama for ingest, Mistral for inference, both configurable
 
 ## Architecture
@@ -26,13 +26,13 @@
 
 ## Testing
 - [ ] Mistral 7B stable manifold test with SpaceX S-1
-- [ ] Intelligent Investor ingestion
-- [ ] Cross-domain query: SpaceX + Intelligent Investor together
+- [ ] Add industy and competitor information 
+- [ ] Add open source S1 analysis from bull and bear perspectives
+- [ ] Cross-domain query: SpaceX + open source analysis
 - [ ] Baseline comparison — bare Mistral vs manifold Mistral
 
-## Rename
-- [ ] Rename repo to Knowledge Manifold
-- [ ] Update README
+## New Repo
+- [ ] Create repo for Knowledge Manifold - C++ implementation
 
 ## Future (C++ / CondAscendingLLMa)
 - [ ] Model as input parameter not hardcoded
