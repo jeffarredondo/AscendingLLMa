@@ -31,6 +31,13 @@
 - [ ] Cross-domain query: SpaceX + open source analysis
 - [ ] Baseline comparison — bare Mistral vs manifold Mistral
 
+## Scaling
+- [ ] Scaling test — measure file size vs concept count vs query quality
+- [ ] Manifold sharding — split large knowledge bases into domain shards (.km files)
+- [ ] Lazy loading — load only relevant shards based on query
+- [ ] Shard router — query embedding similarity to manifold metadata decides which shards to load
+- [ ] Memory budget — define max manifolds in memory at once
+
 ## New Repo
 - [ ] Create repo for Knowledge Manifold - C++ implementation
 
