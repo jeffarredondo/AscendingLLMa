@@ -116,7 +116,7 @@ See `manifold_test_results.md` for full results.
 > "I don't have real-time data on SpaceX's Q1 2026 finances."
 
 **Mistral 7B with Knowledge Manifold — SpaceX S-1 filed 18 days prior:**
-> "Revenues of \$4,694 million and losses from operations of \$(1,943) million."
+> "Revenues of `$4,694` million and losses from operations of `$(1,943)` million."
 
 The model didn't get smarter. It got a map.
 
